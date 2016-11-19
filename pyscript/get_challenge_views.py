@@ -63,7 +63,7 @@ argparser.add_argument('table_id', type=str,
                      help=('The table ID of the profile you wish to access. '
                            'Format is ga:xxx where xxx is your profile ID.'))
 
-pages = ['/2016/challenges/aws/','/2016/challenges/aws2/','/2016/challenges/capitalone/','/2016/challenges/esri/','/2016/challenges/jobsohio/','/2016/challenges/jpmc/','/2016/challenges/wmc/',]
+pages = ['/2016/challenges/aws/index.html','/2016/challenges/aws2/index.html','/2016/challenges/capitalone/index.html','/2016/challenges/esri/index.html','/2016/challenges/jobsohio/index.html','/2016/challenges/jpmc/index.html','/2016/challenges/wmc/index.html',]
 
 def main(argv):
   # Authenticate and construct service.
